@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Waypoint - Your Travel Planner</title>
+    <title>Waypoint - Travel Planner</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
             <h1>🌍 Waypoint</h1>
-            <p>Plan your perfect journey</p>
+            <p>Your Travel Planning Assistant</p>
         </header>
 
         <main>
             <div class="input-section">
-                <h2>Create Your Itinerary</h2>
+                <h2>Plan Your Trip</h2>
                 
                 <form id="tripForm">
                     <div class="form-group">
-                        <label for="destination">Destination</label>
-                        <input type="text" id="destination" placeholder="e.g., Paris, Tokyo, New York" required>
+                        <label for="destination">Where do you want to go?</label>
+                        <input type="text" id="destination" placeholder="Enter destination" required>
                     </div>
 
                     <div class="form-group">
@@ -28,34 +28,17 @@
                         <input type="number" id="days" min="1" max="30" value="3" required>
                     </div>
 
-                    <div class="form-group">
-                        <label for="budget">Budget (USD)</label>
-                        <input type="number" id="budget" min="100" step="100" placeholder="e.g., 1000" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="interests">Interests</label>
-                        <select id="interests" required>
-                            <option value="adventure">Adventure</option>
-                            <option value="culture">Culture & History</option>
-                            <option value="relaxation">Relaxation</option>
-                            <option value="food">Food & Dining</option>
-                            <option value="nature">Nature</option>
-                        </select>
-                    </div>
-
-                    <button type="submit" class="btn-generate">Generate Itinerary</button>
+                    <button type="submit">Create Itinerary</button>
                 </form>
             </div>
 
-            <div class="output-section" id="outputSection" style="display: none;">
-                <h2>Your Personalized Itinerary</h2>
-                <div id="itineraryOutput"></div>
+            <div class="output-section" id="outputSection">
+                <!-- Itinerary will be displayed here -->
             </div>
         </main>
 
         <footer>
-            <p>Built with ❤️ | Project by Govind Choudhary</p>
+            <p>Day 1 Progress - Basic Structure Complete</p>
         </footer>
     </div>
 

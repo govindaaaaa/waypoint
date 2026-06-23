@@ -1,41 +1,43 @@
-# Waypoint - Smart Travel Itinerary Planner
+# Waypoint - Travel Itinerary Planner
 
-A dynamic travel planning platform that generates personalized itineraries based on user preferences, budget, and time constraints.
+A web-based travel planning tool to help users create custom itineraries.
 
-## 🚀 Features
+## 🚧 Project Status: Day 1 - Initial Setup
 
-- Generate custom travel itineraries
-- Budget-based recommendations
-- Day-by-day planning
-- Popular destinations and attractions
+Just starting this project! Currently building the basic structure.
+
+## 🎯 Planned Features
+
+- [ ] User input form (destination, days, budget)
+- [ ] Itinerary generation
+- [ ] Budget calculator
+- [ ] Responsive design
+- [ ] More features coming soon...
 
 ## 🛠️ Tech Stack
 
-- Frontend: HTML, CSS, JavaScript
-- Backend: (To be added)
-- Database: (To be added)
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
-## 📅 Development Timeline
+## 📖 Learning Goals
 
-**Day 1:** Project setup & basic structure
-**Week 1:** Core functionality
-**Week 2:** UI/UX improvements
-**Week 3:** Advanced features
-**Week 4:** Testing & deployment
+Building this project to:
+- Practice frontend development
+- Learn Git/GitHub workflow
+- Create portfolio piece
+- Improve JavaScript skills
 
-## 🎯 Getting Started
+## 🚀 Getting Started
 
 ```bash
-# Clone the repository
+# Clone and open
 git clone https://github.com/yourusername/waypoint.git
-
-# Open index.html in your browser
+cd waypoint
+# Open index.html in browser
 ```
-
-## 👨‍💻 Author
-
-Built with ❤️ for learning and portfolio showcase
 
 ---
 
-**Status:** 🚧 In Development (Started: June 23, 2026)
+**Started:** June 23, 2026  
+**Status:** Work in Progress
