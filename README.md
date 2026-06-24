@@ -2,16 +2,20 @@
 
 A web-based travel planning tool to help users create custom itineraries.
 
-## 🚧 Project Status: Day 1 - Initial Setup
+## 🚧 Project Status: Day 2 - Itinerary Generation ✅
 
-Just starting this project! Currently building the basic structure.
+Making daily progress! Added personalized itinerary generation based on travel interests.
 
 ## 🎯 Planned Features
 
-- [ ] User input form (destination, days, budget)
-- [ ] Itinerary generation
+- [x] User input form (destination, days, budget)
+- [x] Interest-based preferences (Adventure, Culture, Relaxation, Food, Urban)
+- [x] Itinerary generation with day-by-day activities
+- [x] Time-slot based scheduling (Morning, Afternoon, Evening)
 - [ ] Budget calculator
-- [ ] Responsive design
+- [ ] Save/Export itinerary
+- [ ] Responsive design improvements
+- [ ] Map integration
 - [ ] More features coming soon...
 
 ## 🛠️ Tech Stack
@@ -32,10 +36,26 @@ Building this project to:
 
 ```bash
 # Clone and open
-git clone https://github.com/yourusername/waypoint.git
+git clone https://github.com/govindaaaaa/waypoint.git
 cd waypoint
 # Open index.html in browser
 ```
+
+## 📅 Progress Log
+
+### Day 2 (June 24, 2026)
+- ✅ Added interest-based travel preferences
+- ✅ Implemented dynamic itinerary generation
+- ✅ Created activity database with 5 categories (45+ activities)
+- ✅ Built day-by-day schedule with time slots
+- ✅ Enhanced UI with styled itinerary cards
+- ✅ Added smooth scrolling to results
+
+### Day 1 (June 23, 2026)
+- ✅ Initial project setup
+- ✅ Basic HTML structure
+- ✅ Form inputs for destination and days
+- ✅ CSS styling foundation
 
 ---
 

@@ -59,6 +59,16 @@ main {
     font-size: 1em;
 }
 
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: white;
+    cursor: pointer;
+}
+
 button {
     width: 100%;
     padding: 12px;
@@ -78,6 +88,83 @@ button:hover {
     margin-top: 30px;
     padding-top: 30px;
     border-top: 2px solid #eee;
+}
+
+/* Itinerary Styling */
+.itinerary-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.itinerary-header h3 {
+    color: #4a90e2;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.trip-details {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    color: #666;
+}
+
+.day-card {
+    background-color: #f9f9f9;
+    border-left: 4px solid #4a90e2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.day-card h4 {
+    color: #333;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.activity-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.time-badge {
+    background-color: #4a90e2;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    font-weight: bold;
+    min-width: 120px;
+    text-align: center;
+}
+
+.activity-name {
+    color: #555;
+    font-size: 1em;
+}
+
+.footer-note {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #fff9e6;
+    border-left: 4px solid #ffc107;
+    border-radius: 5px;
+    color: #666;
 }
 
 footer {
