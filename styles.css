@@ -110,6 +110,90 @@ button:hover {
     color: #666;
 }
 
+/* Budget Overview */
+.budget-overview {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.budget-total {
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.budget-total h4 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+.budget-amount {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.budget-subtitle {
+    opacity: 0.8;
+    font-size: 0.95em;
+}
+
+.budget-breakdown h4 {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.breakdown-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.breakdown-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.breakdown-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.breakdown-percent {
+    opacity: 0.9;
+}
+
+.breakdown-bar {
+    background: rgba(255, 255, 255, 0.2);
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.breakdown-fill {
+    background: #4caf50;
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.5s ease;
+}
+
+.breakdown-amount {
+    text-align: right;
+    font-size: 0.9em;
+    opacity: 0.9;
+}
+
+/* Day Cards */
 .day-card {
     background-color: #f9f9f9;
     border-left: 4px solid #4a90e2;
@@ -119,12 +203,28 @@ button:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-.day-card h4 {
-    color: #333;
-    font-size: 1.3em;
+.day-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 15px;
     padding-bottom: 10px;
     border-bottom: 2px solid #e0e0e0;
+}
+
+.day-header h4 {
+    color: #333;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.day-cost {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.95em;
 }
 
 .activities {
@@ -135,11 +235,30 @@ button:hover {
 
 .activity-item {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
     padding: 10px;
     background-color: white;
     border-radius: 5px;
+}
+
+.activity-main {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+}
+
+.activity-cost {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 0.9em;
+    min-width: 60px;
+    text-align: center;
 }
 
 .time-badge {

@@ -2,9 +2,9 @@
 
 A web-based travel planning tool to help users create custom itineraries.
 
-## 🚧 Project Status: Day 2 - Itinerary Generation ✅
+## 🚧 Project Status: Day 3 - Budget Calculator 💰
 
-Making daily progress! Added personalized itinerary generation based on travel interests.
+Building daily! Now with complete budget planning and cost estimation.
 
 ## 🎯 Planned Features
 
@@ -12,8 +12,12 @@ Making daily progress! Added personalized itinerary generation based on travel i
 - [x] Interest-based preferences (Adventure, Culture, Relaxation, Food, Urban)
 - [x] Itinerary generation with day-by-day activities
 - [x] Time-slot based scheduling (Morning, Afternoon, Evening)
-- [ ] Budget calculator
+- [x] Budget calculator with breakdown
+- [x] Activity cost estimation
+- [x] Visual budget breakdown with progress bars
 - [ ] Save/Export itinerary
+- [ ] Print-friendly view
+- [ ] Currency converter
 - [ ] Responsive design improvements
 - [ ] Map integration
 - [ ] More features coming soon...
@@ -42,6 +46,15 @@ cd waypoint
 ```
 
 ## 📅 Progress Log
+
+### Day 3 (June 25, 2026)
+- ✅ Implemented comprehensive budget calculator
+- ✅ Added daily budget input field
+- ✅ Created budget breakdown by category (Accommodation, Food, Activities, Transport, Misc)
+- ✅ Added activity cost estimation based on travel interest
+- ✅ Built visual budget overview with progress bars
+- ✅ Display per-day costs for each activity
+- ✅ Enhanced UI with gradient budget cards
 
 ### Day 2 (June 24, 2026)
 - ✅ Added interest-based travel preferences
